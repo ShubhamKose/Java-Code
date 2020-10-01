@@ -91,7 +91,8 @@ class Rectangle extends Point {
 		return height*width;
 	}
 	public float getPerimeter() {
-		return 2*(height+width);
+		float result = 2*(height+width);
+		return result;
 	}
 }
 
